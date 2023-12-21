@@ -1,0 +1,58 @@
+.container {
+  height: 350px;
+  width: 600px;
+  border: 1px solid rgb(244, 238, 238);
+  padding-left: 50px;
+  margin-right: -150px;
+}
+
+.toggle-switch {
+  width: 60px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.toggle-switch.on {
+  background-color: #4caf50;
+}
+
+.toggle-slider {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.toggle-switch.off .toggle-slider {
+  transform: translateX(0);
+}
+
+.toggle-switch.on .toggle-slider {
+  transform: translateX(30px);
+}
+
+.toggle-label {
+  font-size: 14px;
+  color: #555;
+}
+.toggle-switch-container {
+  margin-left: 400px;
+  margin-bottom: 100px;
+}
+
+.chart-container {
+  max-width: 350px;
+}
+.dashboard-table {
+  height: 350px;
+  width: 600px;
+  border: 1px solid black;
+}

@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Dashboard from './pages/Dashboard/dashboard';
+import Navbar from "./Components/navbar";
+import Createadd from "./pages/Create-add/createadd";
+import Form from "./pages/Form/form";
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+    <Routes>
+    
+    <Route path='/'element={<Navbar></Navbar>}></Route> 
+    <Route path='/dashboard'element={<Dashboard></Dashboard> }></Route> 
+    <Route path='/form'element={<Form></Form> }></Route> 
+    <Route path='/createadd'element={<Createadd></Createadd> }></Route> 
+   </Routes>
+    </BrowserRouter>
+   
+  )
 }
 
 export default App;

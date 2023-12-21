@@ -1,0 +1,30 @@
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.dashboard-table {
+  border-collapse: collapse;
+  width: 130%;
+  border: 1px solid rgb(238, 231, 231);
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  border-bottom: 1px solid #ddddddd4;
+
+  padding: 8px;
+  text-align: left;
+}
+
+.dashboard-table th {
+  background-color: #f2f2f2;
+}
+.add {
+  font-size: medium;
+  padding: 10px;
+}
+.paichart {
+  margin-right: 250px;
+}

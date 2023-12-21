@@ -1,0 +1,97 @@
+{
+ "dashboard1" :[
+  {
+    "id": 1,
+    "Campings": "cosmetics",
+    "Clicks": "712",
+    "Cost": "USD 4,772",
+    "Conversions": "8",
+    "Revenue": "USD 16,568"
+  },
+  {
+    "id": 2,
+    "Campings": "serums",
+    "Clicks": "500",
+    "Cost": "USD 3,500",
+    "Conversions": "5",
+    "Revenue": "USD 12,345"
+  },
+  {
+    "id": 3,
+    "Campings": "facewash",
+    "Clicks": "300",
+    "Cost": "USD 2,000",
+    "Conversions": "3",
+    "Revenue": "USD 8,765"
+  },
+  {
+    "id": 4,
+    "Campings": "shampoo",
+    "Clicks": "400",
+    "Cost": "USD 2,800",
+    "Conversions": "4",
+    "Revenue": "USD 10,987"
+  },
+  {
+    "id": 5,
+    "Campings": "conditioner",
+    "Clicks": "200",
+    "Cost": "USD 1,500",
+    "Conversions": "2",
+    "Revenue": "USD 5,432"
+  },
+  {
+    "id": 6,
+    "Campings": "facewash 2",
+    "Clicks": "150",
+    "Cost": "USD 1,200",
+    "Conversions": "1",
+    "Revenue": "USD 4,321"
+  },
+  {
+    "id": 7,
+    "Campings": "total",
+    "Clicks": "1200",
+    "Cost": "USD 8,500",
+    "Conversions": "12",
+    "Revenue": "USD 32,109"
+  }
+],
+"dashboard2":[
+  
+    {
+      "id": 8,
+      "Groups": "male",
+      "Clicks": "348",
+      "Cost": "USD 8,500",
+      "Conversions": "40",
+      "Revenue": "USD 32,109"
+    },
+    {
+      "id": 9,
+      "Groups": "female",
+      "Clicks": "692",
+      "Cost": "USD 8,500",
+      "Conversions": "35",
+      "Revenue": "USD 32,109"
+    },
+    {
+      "id": 10,
+      "Groups": "unknown",
+      "Clicks": "105",
+      "Cost": "USD 8,500",
+      "Conversions": "25",
+      "Revenue": "USD 32,109"
+    },
+    {
+      "id": 11,
+      "Groups": "totle",
+      "Clicks": "1145",
+      "Cost": "USD 8,500",
+      "Conversions": "80",
+      "Revenue": "USD 32,109"
+    }
+    
+  
+]
+}
